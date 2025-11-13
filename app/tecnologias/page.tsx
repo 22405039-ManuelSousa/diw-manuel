@@ -22,7 +22,7 @@ export default function Page() {
             width={100}
              height={100}>
             </Image>
-
+ 
             <p className=" mt-2 text-orange-500"> {tec.rating}</p>
           </div>
         ))}
