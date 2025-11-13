@@ -17,7 +17,6 @@ export default function Page() {
             <p className=" text-pink-400">
               {tec.description}
             </p>
-
             <Image src={tec.image} 
             alt={tec.title} 
             width={100}
