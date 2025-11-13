@@ -1,0 +1,86 @@
+[
+  {
+    "title": "HTML",
+    "image": "/tecnologias/html-logo.png",
+    "description": "Linguagem de marcação usada para estruturar o conteúdo das páginas web.",
+    "rating": 4.2
+  },
+  {
+    "title": "CSS",
+    "image": "/tecnologias/css-logo.png",
+    "description": "Folhas de estilo que definem o aspeto visual e o layout das páginas web.",
+    "rating": 3.5
+  },
+  {
+    "title": "Tailwind CSS",
+    "image": "/tecnologias/tailwind-logo.png",
+    "description": "Framework de CSS utilitária que permite criar interfaces modernas e responsivas rapidamente.",
+    "rating": 5.0
+  },
+  {
+    "title": "JavaScript",
+    "image": "/tecnologias/js-logo.png",
+    "description": "Linguagem de programação que adiciona interatividade e lógica às páginas web.",
+    "rating": 4.8
+  },
+  {
+    "title": "TypeScript",
+    "image": "/tecnologias/typescript-logo.png",
+    "description": "Superset do JavaScript que adiciona tipagem estática e maior segurança ao código.",
+    "rating": 5.0
+  },
+  {
+    "title": "JSON",
+    "image": "/tecnologias/json-logo.png",
+    "description": "Formato leve de troca de dados usado para comunicação entre cliente e servidor.",
+    "rating": 5.0
+  },
+  {
+    "title": "API RESTful",
+    "image": "/tecnologias/api-logo.png",
+    "description": "Padrão de arquitetura que permite a comunicação entre aplicações através de endpoints HTTP.",
+    "rating": 5.0
+  },
+  {
+    "title": "Swagger",
+    "image": "/tecnologias/swagger-logo.png",
+    "description": "Ferramenta que documenta e testa APIs RESTful de forma interativa.",
+    "rating": 3.9
+  },
+  {
+    "title": "GitHub",
+    "image": "/tecnologias/github-logo.svg",
+    "description": "Plataforma de alojamento de código e colaboração baseada em Git.",
+    "rating": 5.0
+  },
+  {
+    "title": "Codespaces",
+    "image": "/tecnologias/codespaces-logo.png",
+    "description": "Ambiente de desenvolvimento online da GitHub que permite programar diretamente no navegador.",
+    "rating": 5.0
+  },
+  {
+    "title": "GitHub Pages",
+    "image": "/tecnologias/github-pages-logo.png",
+    "description": "Serviço gratuito da GitHub para hospedar sites estáticos diretamente a partir de um repositório.",
+    "rating": 4.8
+  },
+  {
+    "title": "React.js",
+    "image": "/tecnologias/react-logo.png",
+    "description": "Biblioteca JavaScript para criação de interfaces de utilizador baseadas em componentes.",
+    "rating": 5.0
+  },
+  {
+    "title": "Next.js",
+    "image": "/tecnologias/nextjs-logo.png",
+    "description": "Framework baseada em React que oferece renderização no servidor e geração estática de páginas.",
+    "rating": 5.0
+  },
+  {
+    "title": "Vercel",
+    "image": "/tecnologias/vercel-logo.png",
+    "description": "Plataforma de deploy otimizada para projetos Next.js e aplicações web modernas.",
+    "rating": 5.0
+  }
+]
