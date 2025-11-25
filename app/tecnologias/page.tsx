@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from "next/image";
 import tecnologiasData from '@/app/data/tecnologias.json';
+import TecnologiaCard from '@/components/TecnologiaCard/TecnologiaCard';
 
 export default function Page() {
     const tecnologias = JSON.parse(JSON.stringify(tecnologiasData));
@@ -9,10 +10,11 @@ export default function Page() {
   return (
     <>
     <main className='flex flex-col items-center' >
-<h2 >Tecnologias</h2>
-<div>{tecnologias.map((tec: any, i: number) => (
+        <h2 >Tecnologias</h2>
+    <div>{tecnologias.map((tec: any, i: number) => (
 
           <div key={i}>
+
             <h3>{tec.title}</h3>
             <p className=" text-pink-400">
               {tec.description}
@@ -24,7 +26,7 @@ export default function Page() {
             </Image>
  
             <p className=" mt-2 text-orange-500"> {tec.rating}</p>
-          </div>
+          </div> 
         ))}
         
       </div>
