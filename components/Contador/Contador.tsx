@@ -13,7 +13,7 @@ export default function Contador() {
     useEffect(() => {
         document.title = `${count}`
     }, [count])
-    const getColor = () => {
+    const getColor = () => { 
         if (count <= 3) return "text-red-500";
         if (count <= 7) return "text-yellow-300";
         return "text-green-500";
