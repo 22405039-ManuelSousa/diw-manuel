@@ -1,37 +1,33 @@
-'use client'
-import React from 'react'
-import Image from "next/image";
+'use client';
+
+import React from 'react';
+import Link from 'next/link';
 import tecnologiasData from '@/app/data/tecnologias.json';
 import TecnologiaCard from '@/components/TecnologiaCard/TecnologiaCard';
 
 export default function Page() {
-    const tecnologias = JSON.parse(JSON.stringify(tecnologiasData));
+  const tecnologias = tecnologiasData;
 
   return (
-    <>
-    <main className='flex flex-col items-center' >
-        <h2 >Tecnologias</h2>
-    <div>{tecnologias.map((tec: any, i: number) => (
+    <main className="flex flex-col items-center px-6 py-10">
 
-          <div key={i}>
+      <h2 className="text-3xl font-bold mb-10">Tecnologias</h2>
 
-            <h3>{tec.title}</h3>
-            <p className=" text-pink-400">
-              {tec.description}
-            </p>
-            <Image src={tec.image} 
-            alt={tec.title} 
-            width={100}
-             height={100}>
-            </Image>
- 
-            <p className=" mt-2 text-orange-500"> {tec.rating}</p>
-          </div> 
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl">
+
+        {tecnologias.map((tec, index) => (
+          
+          <Link href={`/tecnologias/${index}`} key={index}>
+            <TecnologiaCard
+              title={tec.title}
+              image={tec.image}
+            />
+          </Link>
+
         ))}
-        
-      </div>
-    </main>
 
-    </>
-  )
+      </div>
+
+    </main>
+  );
 }
