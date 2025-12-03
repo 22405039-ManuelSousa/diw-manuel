@@ -1,3 +1,4 @@
+import ContadorPersonalizado from "@/app/contadorPersonalizado/contadorPersonalizado";
 interface TecnologiaDetailsProps {
     title: string;
     image: string;
@@ -18,6 +19,8 @@ export default function TecnologiaDetailsCard({ title, image, description, ratin
             <h2 className="text-center mt-2">{title}</h2>
             <p className="text-sm mt-2">{description}</p>
             <p className="mt-2 text-yellow-300">Rating: {rating}</p>
+            
+            <ContadorPersonalizado title={title} />
         </div>
     );
 }
